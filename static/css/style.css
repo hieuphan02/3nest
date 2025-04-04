@@ -3986,7 +3986,7 @@ START CASE DETAILS DESIGN
 	align-items: center;
 }
 .atf-single-footer .atf-list-menu li::before {
-	content: "\f054";
+	content: ">";
 	color: var(--thm-color);
 	font-family: "Font Awesome 6 Free";
 	position: relative;
@@ -4247,64 +4247,5 @@ START CASE DETAILS DESIGN
 * ----------------------------------------------------------------------------------------
 * END SLICK DESIGN
 * ----------------------------------------------------------------------------------------**/
-/* Style chung cho navbar */
-.navbar-nav {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.navbar-nav .nav-item {
-    position: relative;
-}
-
-.navbar-nav .nav-link {
-    display: flex;
-    align-items: center;
-    color: #333;
-    font-size: 16px;
-    text-decoration: none;
-    padding: 10px 15px;
-    position: relative;
-}
-
-/* Thêm mũi tên dropdown */
-.navbar-nav .nav-link i {
-    margin-left: 5px;
-    font-size: 12px;
-    transition: transform 0.3s ease;
-}
-
-/* Dropdown menu */
-.navbar-nav .dropdown-menu {
-    display: none;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    background: #fff;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    min-width: 200px;
-    z-index: 1000;
-    border-radius: 5px;
-    padding: 10px 0;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
-}
-
-.navbar-nav .dropdown-menu .nav-item {
-    display: block;
-}
-
-.navbar-nav .dropdown-menu .nav-link {
-    display: block;
-    padding: 10px 15px;
-    color: #333;
-    transition: background 0.3s ease;
-}
-
-.navbar-nav .dropdown-menu .nav-link:hover {
-    background: #f1f1f1;
-}
 
 
